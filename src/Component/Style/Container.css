@@ -1,0 +1,19 @@
+.main_Container{
+    border: 2px solid red;
+    display: flex;
+    height: 100vh;
+    width: 100%; 
+}
+
+.sidebar{
+    border: 2px solid black;
+    height: auto;
+    width: 20%;
+
+}
+
+.Right_Sidebar{
+    border: 2px solid green;
+    height: auto;
+    width: 80%;
+}

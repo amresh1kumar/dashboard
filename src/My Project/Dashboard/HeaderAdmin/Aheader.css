@@ -1,0 +1,35 @@
+.Aheader_container{
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 100%;
+}
+
+.Aheader_sub{
+    /* border: 2px solid blue; */
+    background-color: rgba(8, 114, 91, 0.863);
+
+    
+    display: flex;
+    gap: 20%;
+    height: 70px;
+    width: 100%;
+}
+.Aimg{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Ah2{
+    /* border: 2px solid black; */
+    width: 500px;
+}
+.Logout{
+    height: 30px;
+    width: 100px;
+    margin-top: 18px;
+    margin-left: 70px;
+}
+       

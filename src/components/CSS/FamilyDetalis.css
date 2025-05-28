@@ -1,0 +1,51 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.familycontainer form {
+   /* border: 1px solid red; */
+   display: flex;
+   flex-wrap: wrap;
+   /* margin-left: 20px; */
+}
+
+.father-mother-details {
+   margin-top: 50px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.father-mother-details input {
+   width: 400px;
+   padding: 10px;
+   margin-right: 40px;
+}
+
+.father-mother-details input::placeholder {
+   font-size: 1rem;
+   text-transform: capitalize;
+}
+
+.spouse input::placeholder {
+   font-size: 1rem;
+   text-transform: capitalize;
+}
+
+.child {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
+
+.child input {
+   width: 400px;
+   padding: 10px;
+   margin-right: 40px;
+}
+
+.child input::placeholder {
+   font-size: 1rem;
+   text-transform: capitalize;
+
+}

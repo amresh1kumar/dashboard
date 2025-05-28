@@ -1,0 +1,21 @@
+.dashboard_Container{
+
+    display: flex;
+
+}
+.dashboard_sub1{
+    /* border: 2px solid red; */
+    /* background-color: rgb(75, 72, 50); */
+    /* height: 90vh; */
+    height: auto;
+    width: 20%;
+    
+}
+
+.dashboard_sub2{
+    /* border: 2px solid green; */
+    /* height: 90vh; */
+    height: auto;
+    width: 85%;
+    
+}

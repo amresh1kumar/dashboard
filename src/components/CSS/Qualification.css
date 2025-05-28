@@ -1,0 +1,22 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.qualification{
+   /* border-bottom: 1px solid red; */
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width: 100%;
+   margin-top: 5px;
+}
+.qualification input{
+   width: 300px  !important;
+   margin-right: 20px !important;
+   padding: 10px !important;
+}
+.qualification input::placeholder{
+   font-size: 1rem;
+   text-transform: capitalize
+}

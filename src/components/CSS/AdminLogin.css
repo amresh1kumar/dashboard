@@ -1,0 +1,63 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.form-items {
+   /* border: 1px solid red; */
+   display: inline-block;
+   width: 700px;
+   position: relative;
+   left: 410px;
+   top: 100px;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-items h1 {
+   width: 465px;
+   text-align: center;
+   margin-bottom: 30px;
+   /* border: 1px solid red; */
+}
+
+.common input {
+   padding: 10px;
+   width: 100% !important;
+}
+
+.pass {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 0 !important;
+}
+
+.form-items input::placeholder {
+   text-transform: capitalize;
+   font-size: 1rem;
+}
+
+.rem-forgot {
+   width: 700px;
+   /* border: 1px solid red; */
+}
+
+.rem-forgot-inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   /* border: 1px solid red; */
+   position: relative;
+   right: 235px;
+}
+
+.login-btn button {
+   width: 470px;
+   /* border: 1px solid red; */
+   padding: 20px;
+   font-size: 1.2rem !important;
+   position: relative;
+   right: 235px;
+
+}

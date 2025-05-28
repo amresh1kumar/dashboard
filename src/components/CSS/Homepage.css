@@ -1,0 +1,75 @@
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px !important;
+  height: 150px !important;
+  border-radius: 12px;
+  color: rgb(1, 0, 0);
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pink {
+  background: linear-gradient(135deg, #fda085, #f6d365);
+}
+
+.blue {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.green {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+.orange{
+   background: linear-gradient(135deg, #FFA500 , #00f2fe);
+}
+
+/* Bubble effect */
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.15;
+  background: white;
+}
+
+.card::before {
+  width: 100px;
+  height: 100px;
+  top: -20px;
+  right: -20px;
+}
+
+.card::after {
+  width: 120px;
+  height: 120px;
+  bottom: -30px;
+  left: -30px;
+}
+
+.card-title {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+}
+.card-title p{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 1.2rem !important;
+  color: #000 !important;
+
+}
+

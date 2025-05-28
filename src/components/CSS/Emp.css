@@ -1,0 +1,17 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.employee{
+   margin-top: 50px;
+   width: 80%;
+   /* border: 1px solid red; */
+   /* margin-left: 40px; */
+}
+.employee input {
+padding: 10px;
+}
+.employee input::placeholder{
+   text-transform: capitalize;
+   font-size: 1rem;
+}

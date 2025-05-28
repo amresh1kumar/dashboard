@@ -1,0 +1,36 @@
+.Adashboard_div{
+    /* height: 583px; */
+    width: 250px;
+    /* border: 2px solid red ; */
+    background-color: rgb(35, 48, 53);
+    color: aliceblue;
+    height: auto;  
+    position: fixed;
+}
+.Adashboard_ul li{
+    color: aliceblue;
+}
+
+.Adashboard_ul{
+    /* border: 2px solid black; */
+    list-style: none;
+    height: 90vh;
+    color: red !important;
+    /* background-color: rgba(4, 158, 81, 0.938); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-align: left; */
+    /* margin: 40px; */
+    /* padding-left: 70px; */
+    
+} 
+
+.Adashboard_li{
+    gap: 10%;
+}
+.ADimg{
+    height: 100px;
+    width: 120px;
+    margin-left: 45px;
+    margin-top:45px ;
+
+}

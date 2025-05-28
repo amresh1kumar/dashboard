@@ -1,0 +1,49 @@
+.dropdown {
+  background-color: transparent;
+  border: none !important;
+  outline: none;
+  width: 90%;
+  margin-top: 15px;
+  text-align: start;
+  position: relative;
+  left: 30px;
+  border-radius: 10%;
+}
+
+.menu-items {
+  color: #fff !important;
+  font-size: 1rem;
+}
+
+.ant-menu-submenu-title {
+  padding-left: 8px !important;
+}
+
+.custom-menu-label {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  cursor: pointer;
+
+}
+
+.ant-menu-submenu-title:active {
+  background-color: transparent !important;
+}
+
+.ant-menu-item {
+  padding-left: 8px !important;
+}
+
+.menu-items.active-link {
+  color: #000 !important;
+  width: 90%;
+}
+
+
+.ant-menu-submenu-title .ant-menu-submenu-arrow {
+  color: #fff;
+  font-size: 18px;
+}
