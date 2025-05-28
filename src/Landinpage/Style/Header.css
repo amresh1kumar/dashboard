@@ -51,11 +51,15 @@
 .header-ul li a {
   text-decoration: none;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 8px 12px;
   margin-left: 70px;
   transition: background-color 0.3s ease;
   border-radius: 4px;
+}
+
+.header-ul li a:hover{
+  transition: background-color 0.3s ease; 
 }
 
 .header-ul li a:hover {
