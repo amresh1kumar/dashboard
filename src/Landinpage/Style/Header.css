@@ -58,8 +58,8 @@
   border-radius: 4px;
 }
 
-.header-ul li a:hover{
-  transition: background-color 0.3s ease; 
+.header-ul li a:hover {
+  transition: background-color 0.3s ease;
 }
 
 .header-ul li a:hover {
@@ -73,7 +73,8 @@
   font-weight: bold;
   padding: 8px 0;
   font-size: 0.95rem;
-  margin-top: 10px; /* Push down after fixed header */
+  margin-top: 10px;
+  /* Push down after fixed header */
 }
 
 /* Optional: reset marquee spacing */
@@ -85,5 +86,6 @@ marquee {
 
 /* Add space only for fixed header */
 body {
-  padding-top: 50px; /* Matches header height */
+  padding-top: 50px;
+  /* Matches header height */
 }
